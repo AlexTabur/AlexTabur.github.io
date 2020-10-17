@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.cnvClass{
+			position: absolute;
+		}
+		body{
+			background-color: #000;
+			color: white;
+			
+		}
+		.playbtn{
+			
+		}
+		button{
+			
+		}
+		.margin0{
+			margin: 0px;
+		}
+
+	</style>
+</head>
+<body class="margin0" onmousedown="audioCtx.resume()">
+	<div>
+		<input type="radio" name="theme" value="" onclick="theme='rainbow'">rainbow
+		<input type="radio" name="theme" value="" onclick="theme='bw'">black&white
+		<input type="radio" name="theme" value="" onclick="theme='wood'">wood
+	</div>
+	<div id="listofsongs"></div>
+	<audio src="Digital Bath.m4a" controls=""></audio>
+	
+	<canvas id="oscilloscope" width="1000" height="800"></canvas>
+
+<script type="text/javascript" src="defenitions 2.js"></script>
+
+
+</body>
+</html>
